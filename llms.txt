@@ -29,8 +29,8 @@ The exact price depends on the video format and is fixed at the brief.
 After that videos ship in scheduled batches.
 
 ## Good fit / bad fit
-Good: ['Experts and services that need a steady stream of videos', 'Online schools and products: tips, breakdowns, answers to customer questions', "Anyone who already films: we'll edit and package your footage"]
-Bad: ['You need a crew on location: reportage, vlogs, product-in-hand shots', 'We do not come out to film: either you shoot, or the avatar makes the video', "If the task can't be solved without a camera crew, we'll say so"]
+Good: Experts and services that need a steady stream of videos; Online schools and products: tips, breakdowns, answers to customer questions; Anyone who already films: we'll edit and package your footage
+Bad: You need a crew on location: reportage, vlogs, product-in-hand shots; We do not come out to film: either you shoot, or the avatar makes the video; If the task can't be solved without a camera crew, we'll say so
 
 ## FAQ (EN)
 **Why is this better than a regular shoot?** Speed, consistency and almost none of your time and effort.
