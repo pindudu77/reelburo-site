@@ -8,6 +8,12 @@
 
 - [Russian](https://reelburo.com/)
 - [English](https://reelburo.com/en/)
+- [Рилс без съёмки](https://reelburo.com/reels-bez-semki/): Ролики для Reels, Shorts и TikTok без камеры и без вашего лица в кадре. Темы берём из ваших постов, говорит ИИ-аватар. Цены, сроки и что нужно от вас.
+- [Сколько стоит смонтировать рилс](https://reelburo.com/skolko-stoit-montazh-reels/): Реальные цены на монтаж вертикальных роликов: фрилансер, сервис-автомат, студия, команда под ключ. За что платят в каждом случае и что входит в цену.
+- [ИИ-аватар для бизнеса](https://reelburo.com/ii-avatar-dlya-biznesa/): Ролики с ИИ-аватаром для экспертов и малого бизнеса: свой цифровой двойник или лицензированный персонаж, 175 языков, сроки и цены, честные ограничения формата.
+- [Ролики из постов вашего канала](https://reelburo.com/reels-dlya-telegram-kanala/): У вас есть канал с текстами, но нет видео. Как сделать из готовых постов ленту вертикальных роликов без съёмки: что берём, что пишем, сколько стоит.
+- [Сервис-автомат или команда](https://reelburo.com/servis-ili-komanda/): Чем сервис автомонтажа отличается от команды под ключ: что на входе, что на выходе, сколько времени уходит у вас и когда дешёвый вариант выходит дороже.
+- [Публичная оферта](https://reelburo.com/oferta/): условия работы, сроки, правки, оплата, права на ролики
 - Contact: https://t.me/Xellent0 · hi@reelburo.com
 - Pricing (EN): Starter: $129 (3 videos · one week · $43 per video); Growth: $495 (16 videos a month · ~$31 per video); Studio: $895 (30 videos a month · ~$30 per video); Custom: on request (volume and format built around your task)
 - Pricing (RU): Старт: 7 500 ₽ (3 ролика · неделя · 2 500 ₽ за ролик); Поток: 40 000 ₽ (16 роликов в месяц · 2 500 ₽ за ролик); Студия: 60 000 ₽ (30 роликов в месяц · 2 000 ₽ за ролик); Индивидуальный: по запросу (объём и формат под вашу задачу)
@@ -51,6 +57,9 @@ You only pay extra if you ask for more, like additional revisions.
 **I already have footage. Will you do editing only?** Yes.
 Send us your phone footage and you get back a fully edited and designed video, same 48-hour turnaround.
 Package prices stay the same: we charge per video, not per format.
+**I have no footage and I do not want to film. What then?** Then you do not have to film at all.
+Send a link to your channel or site: we take the topics from your own posts, write the scripts and put an AI avatar on camera.
+All we need is the brief and your approval of the scripts.
 **Do you post the videos for us?** Usually we deliver finished files and you post them in a minute: no account access, no passwords.
 There is also a posting option: we publish through a scheduling service, still no passwords needed.
 Discussed at the brief.
@@ -96,12 +105,16 @@ On Studio, we review your numbers monthly and change what is not working.
 **У меня есть свои видео. Возьмёте только монтаж?** Да.
 Присылаете съёмку с телефона, возвращаем готовый ролик с монтажом и оформлением в те же 48 часов.
 Цены пакетов те же: считаем за ролик, а не за формат.
+**Своей съёмки нет и сниматься не хочу. Что тогда?** Тогда снимать ничего и не надо.
+Пришлите ссылку на канал или сайт: темы возьмём из ваших постов, сценарии напишем сами, в кадре будет ИИ-аватар.
+От вас нужен бриф и согласование сценариев, дальше ролики выходят без вашего участия.
 **Вы публикуете ролики за нас?** Обычно отдаём готовые файлы, вы публикуете сами за минуту: доступ к аккаунтам и пароли не нужны.
 Есть формат с выкладкой: публикуем через сервис-посредник, пароли всё равно не нужны.
 Обсуждается на брифе.
 **Как проходит оплата?** Первый пакет: 50% в начале работы, 50% после сдачи.
 Дальше пакеты оплачиваются вперёд, картой или переводом, реквизиты пришлём в Telegram.
 Никаких автосписаний: следующий месяц вы подтверждаете сами.
+После оплаты приходит чек из «Мой налог»: этого достаточно, чтобы провести расход по бухгалтерии.
 **Что если формат не зайдёт?** Для этого и есть «Старт»: 3 ролика за неделю с оплатой 50/50.
 Не зашло: вы просто не продолжаете, никаких обязательств по пакету.
 Правку на первый ролик сделаем в любом случае.

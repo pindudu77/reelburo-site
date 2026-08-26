@@ -1,0 +1,13 @@
+/* Стили только для страницы оферты. Отдельным файлом, чтобы юридическая
+   страница не утяжеляла критический путь главной: его потолок 80 КБ и он
+   почти выбран. Подключается лишь из legal_page(). */
+/* Оферта: колонка уже общей, текст читают строкой. */
+.prose-section { padding: clamp(28px, 4vw, 44px) 0 clamp(48px, 6vw, 72px); border-top: 1px solid var(--line) }
+.prose { max-width: 68ch; display: grid; gap: 14px; }
+.prose h2 { margin-top: 22px; font-size: clamp(18px, 2.2vw, 22px) }
+.prose h2:first-child { margin-top: 0 }
+.prose p { color: var(--ink-soft); line-height: 1.65; }
+.prose .muted {
+  margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line);
+  color: var(--ink-faint); font-size: 14px;
+}
