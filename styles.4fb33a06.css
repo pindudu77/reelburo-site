@@ -587,6 +587,9 @@ footer .row { display: flex; flex-wrap: wrap; gap: 8px 26px; align-items: center
 footer a { text-decoration: none; display: inline-flex; align-items: center; padding-block: 8px; }
 footer a:hover { color: var(--ink); }
 footer .spacer { margin-left: auto; }
+footer .links { margin-top: 6px; gap: 8px 18px; }
+footer .links .lbl { color: var(--ink-faint); }
+footer .links a { text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------- печать ---------- */
 
