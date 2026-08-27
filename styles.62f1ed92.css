@@ -343,7 +343,12 @@ nav.links a:hover { color: var(--ink); }
     border-color: color-mix(in srgb, var(--ink-faint) 55%, var(--line));
     box-shadow: 0 14px 34px -22px rgba(10, 14, 30, .45);
   }
+  /* «Знакомо?» раньше не отвечало на курсор вовсе, и блок читался как
+     мёртвый: глаз пробегал мимо (замечание владельца 27.08). Возвращаем
+     отклик, но свой: карточка не прыгает, а зажигает номер и полосу слева. */
   #pain .card:hover { transform: none; box-shadow: none; }
+  #pain .card:hover::before, .card:hover .num { transform: scale(1.12); }
+  .grid .card:hover::after { transform: scaleY(1); }
   .reel-item .reel { transition: transform .18s ease, box-shadow .18s ease; }
   .reel-item:hover .reel {
     transform: translateY(-3px);
@@ -356,8 +361,18 @@ nav.links a:hover { color: var(--ink); }
   counter-increment: pain-n;
   position: absolute; top: 18px; left: 24px;
   font: 600 15px/1 var(--mono); color: var(--accent);
+  transform-origin: left center; transition: transform .22s ease;
 }
 #pain .grid { counter-reset: pain-n; }
+/* Полоса слева: свёрнута в ноль и разворачивается сверху вниз при наведении.
+   Дешевле картинки и не прячет текст, как переворот карточки: спрятанный
+   текст не читают ни люди на телефоне, ни поисковые роботы. */
+.card { position: relative; overflow: hidden; }
+.card::after {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--accent); transform: scaleY(0); transform-origin: top;
+  transition: transform .22s ease;
+}
 .card h3 { margin-bottom: 8px; }
 .card p { color: var(--ink-soft); font-size: 15px; }
 
@@ -366,6 +381,7 @@ nav.links a:hover { color: var(--ink); }
 .step .num {
   font: 600 26px/1 var(--mono); color: var(--accent);
   letter-spacing: -0.02em; display: block; margin-bottom: 14px;
+  transform-origin: left center; transition: transform .22s ease;
 }
 
 /* ---------- work ---------- */
