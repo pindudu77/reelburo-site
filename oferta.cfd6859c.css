@@ -1,0 +1,40 @@
+/* Стили только для страницы оферты. Отдельным файлом, чтобы юридическая
+   страница не утяжеляла критический путь главной: его потолок 80 КБ и он
+   почти выбран. Подключается лишь из legal_page(). */
+/* Оферта: колонка уже общей, текст читают строкой. */
+.prose-section { padding: clamp(28px, 4vw, 44px) 0 clamp(48px, 6vw, 72px); border-top: 1px solid var(--line) }
+.prose { max-width: 68ch; display: grid; gap: 14px; }
+.prose h2 { margin-top: 22px; font-size: clamp(18px, 2.2vw, 22px) }
+.prose h2:first-child { margin-top: 0 }
+.prose p { color: var(--ink-soft); line-height: 1.65; }
+.prose .muted {
+  margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line);
+  color: var(--ink-faint); font-size: 14px;
+}
+
+/* Кейсы (/cases/, 14.10.2026): тот же текстовый шаблон, кейс — блок с чертой
+   сверху; скриншоты статистики сеткой, по нажатию открываются целиком. */
+.case { display: grid; gap: 12px; padding-top: 28px; margin-top: 14px; border-top: 1px solid var(--line); }
+.case:first-child { padding-top: 0; margin-top: 0; border-top: 0; }
+.case h2 { margin-top: 0; font-size: clamp(21px, 2.6vw, 26px); }
+.case h3 { margin-top: 6px; font-size: 16px; }
+.case-lead { color: var(--ink); font-weight: 600; }
+.case-lead .reel-kind { vertical-align: 2px; }
+.case ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; color: var(--ink-soft); line-height: 1.55; }
+.case-shots { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); margin-top: 6px; }
+.case-shot { display: block; }
+.case-shot img, .case-reel {
+  width: 100%; height: auto; border-radius: var(--radius);
+  border: 1px solid var(--line); background: var(--bg-soft);
+}
+.case-video { margin-top: 4px; }
+.case-video-v { max-width: 340px; }
+/* Ролики без текста кейса — сеткой: вертикальные по 2 (телефон) / 3, горизонтальные по 1 / 2. */
+.case-grid { display: grid; gap: 14px; margin-top: 4px; }
+.case-grid-v { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.case-grid-h { grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 640px) {
+  .case-grid-v { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .case-grid-h { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.case-clip { margin: 0; }

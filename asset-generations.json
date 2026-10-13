@@ -4,14 +4,30 @@
   "media/case-tg10-p1-b4b83b64.webp",
   "media/case-tg10-p2-eb10f98c.webp",
   "media/case-tg10-p3-c2b310aa.webp",
-  "media/case-tg28-p1-e1ed85dd.webp",
-  "media/case-tg28-p2-8f0d4afb.webp",
+  "media/case-tg14-12637d1c.webm",
+  "media/case-tg14-98d32603.mp4",
+  "media/case-tg14-poster-6bca6b20.webp",
+  "media/case-tg24-92702148.webm",
+  "media/case-tg24-ad2b6065.mp4",
+  "media/case-tg24-poster-a0b28dfa.webp",
+  "media/case-tg25-f30155cb.mp4",
+  "media/case-tg25-f6a890a4.webm",
+  "media/case-tg25-poster-e01d5a65.webp",
+  "media/case-tg31-dad0f165.webm",
+  "media/case-tg31-f8350f0e.mp4",
+  "media/case-tg31-poster-d020d8be.webp",
+  "media/case-tg32-08f64a88.mp4",
+  "media/case-tg32-c657dcb0.webm",
+  "media/case-tg32-poster-60fb7e1d.webp",
   "media/case-tg35-p1-5d1b7f7b.webp",
   "media/case-tg35-p2-0cf8448f.webp",
   "media/case-tg35-p3-2f8a433f.webp",
-  "media/case-tg5-69dbb844.mp4",
-  "media/case-tg5-a12fb5f5.webm",
-  "media/case-tg5-poster-fe0ab609.webp",
+  "media/case-tg4-19bc80da.webm",
+  "media/case-tg4-4abe16a6.mp4",
+  "media/case-tg4-poster-08e14c47.webp",
+  "media/case-tg9-2bf2d8fe.webm",
+  "media/case-tg9-2dcd4b5a.mp4",
+  "media/case-tg9-poster-9c57fd08.webp",
   "media/reel1-7ca35fb0.webm",
   "media/reel1-d31bcee8.mp4",
   "media/reel1-poster-4ba45352.webp",
@@ -21,14 +37,19 @@
   "media/reel3-4be45fc9.webm",
   "media/reel3-5a4e0a42.mp4",
   "media/reel3-poster-c6018469.webp",
-  "oferta.d09ca108.css",
+  "oferta.cfd6859c.css",
   "styles.618ac57b.css",
   "theme.832f25ac.js"
  ],
  [
-  "oferta.d6c53afb.css"
+  "media/case-tg28-p1-e1ed85dd.webp",
+  "media/case-tg28-p2-8f0d4afb.webp",
+  "media/case-tg5-69dbb844.mp4",
+  "media/case-tg5-a12fb5f5.webm",
+  "media/case-tg5-poster-fe0ab609.webp",
+  "oferta.d09ca108.css"
  ],
  [
-  "styles.62f1ed92.css"
+  "oferta.d6c53afb.css"
  ]
 ]
