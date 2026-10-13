@@ -1,6 +1,17 @@
 [
  [
   "app.a6943b71.js",
+  "media/case-tg10-p1-b4b83b64.webp",
+  "media/case-tg10-p2-eb10f98c.webp",
+  "media/case-tg10-p3-c2b310aa.webp",
+  "media/case-tg28-p1-e1ed85dd.webp",
+  "media/case-tg28-p2-8f0d4afb.webp",
+  "media/case-tg35-p1-5d1b7f7b.webp",
+  "media/case-tg35-p2-0cf8448f.webp",
+  "media/case-tg35-p3-2f8a433f.webp",
+  "media/case-tg5-69dbb844.mp4",
+  "media/case-tg5-a12fb5f5.webm",
+  "media/case-tg5-poster-fe0ab609.webp",
   "media/reel1-7ca35fb0.webm",
   "media/reel1-d31bcee8.mp4",
   "media/reel1-poster-4ba45352.webp",
@@ -10,9 +21,12 @@
   "media/reel3-4be45fc9.webm",
   "media/reel3-5a4e0a42.mp4",
   "media/reel3-poster-c6018469.webp",
-  "oferta.d6c53afb.css",
+  "oferta.d09ca108.css",
   "styles.618ac57b.css",
   "theme.832f25ac.js"
+ ],
+ [
+  "oferta.d6c53afb.css"
  ],
  [
   "styles.62f1ed92.css"
