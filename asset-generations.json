@@ -1,6 +1,6 @@
 [
  [
-  "app.a6943b71.js",
+  "app.b62f6a52.js",
   "media/case-tg10-p1-b4b83b64.webp",
   "media/case-tg10-p2-eb10f98c.webp",
   "media/case-tg10-p3-c2b310aa.webp",
@@ -31,6 +31,12 @@
   "media/case-tg9-2bf2d8fe.webm",
   "media/case-tg9-2dcd4b5a.mp4",
   "media/case-tg9-poster-9c57fd08.webp",
+  "media/hero-tg14-20c64805.mp4",
+  "media/hero-tg14-d61be9f9.webm",
+  "media/hero-tg31-a34d3120.mp4",
+  "media/hero-tg31-d0ce27af.webm",
+  "media/hero-tg32-2bac2fd6.webm",
+  "media/hero-tg32-8fd3abea.mp4",
   "media/reel1-7ca35fb0.webm",
   "media/reel1-d31bcee8.mp4",
   "media/reel1-poster-4ba45352.webp",
@@ -41,8 +47,12 @@
   "media/reel3-5a4e0a42.mp4",
   "media/reel3-poster-c6018469.webp",
   "oferta.cfd6859c.css",
-  "styles.618ac57b.css",
+  "styles.857a026c.css",
   "theme.832f25ac.js"
+ ],
+ [
+  "app.a6943b71.js",
+  "styles.618ac57b.css"
  ],
  [
   "media/case-tg28-p1-e1ed85dd.webp",
@@ -51,8 +61,5 @@
   "media/case-tg5-a12fb5f5.webm",
   "media/case-tg5-poster-fe0ab609.webp",
   "oferta.d09ca108.css"
- ],
- [
-  "oferta.d6c53afb.css"
  ]
 ]
