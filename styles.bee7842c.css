@@ -1,6 +1,9 @@
 :root {
   color-scheme: light;
   --bg: #F2F3F5;
+  --wa: #25D366;
+  --wa-hover: #1EBE5A;
+  --wa-ink: #0B141A;
   --bg-soft: #E8EAEE;
   --card: #FFFFFF;
   --line: #DDE0E6;
@@ -186,6 +189,9 @@ nav.links a:hover { color: var(--ink); }
 .btn-primary:hover { background: var(--btn-hover); }
 .btn-ghost { border-color: var(--line); color: var(--ink); background: transparent; }
 .btn-ghost:hover { background: var(--bg-soft); }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: inherit; }
+.btn-wa { background: var(--wa); border-color: var(--wa); color: var(--wa-ink); }
+.btn-wa:hover { background: var(--wa-hover); border-color: var(--wa-hover); }
 .btn-sm { padding: 8px 14px; border-radius: 8px; font-size: 14px; }
 .cta-note { color: var(--ink-faint); font-size: 14px; max-width: 52ch; }
 .hero {
@@ -463,6 +469,9 @@ nav.links a:hover { color: var(--ink); }
 .final .lede { max-width: 52ch; }
 .final .note { color: var(--ink-inverse-soft); }
 .final .note a { color: var(--ink-inverse); }
+.final .cta-row { justify-content: center; }
+.final .btn-wa { background: var(--wa); border-color: var(--wa); color: var(--wa-ink); }
+.final .btn-wa:hover { background: var(--wa-hover); border-color: var(--wa-hover); }
 .final .btn-primary { background: var(--bg); color: var(--ink); }
 .final .btn-primary:hover { background: var(--btn-inverse-hover); }
 .final .btn-primary:focus-visible, .final a:focus-visible {
@@ -510,10 +519,14 @@ footer .links a { text-decoration: underline; text-underline-offset: 3px; }
   transition: transform .25s ease;
 }
 .mobile-cta .btn { width: 100%; }
+.mobile-cta-row { display: flex; gap: 8px; }
+.svg-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.mobile-cta-row .btn { flex: 1 1 0; min-width: 0; padding-left: 12px; padding-right: 12px; }
 .mobile-cta.off { transform: translateY(110%); visibility: hidden; transition: transform .25s ease, visibility 0s .25s; }
 @media (max-height: 500px) { .mobile-cta { display: none !important; } body { padding-bottom: 0 !important; } }
 @media (max-width: 759px) {
   .mobile-cta { display: block; }
+  .hero-cta .btn { flex: 1 1 100%; }
   body { padding-bottom: 76px; }
 }
 .hero.has-wall { padding-top: clamp(18px, 4vw, 64px); }
